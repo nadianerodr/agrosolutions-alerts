@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+**/.vs/
+
+# Build
+bin/
+obj/
+**/bin/
+**/obj/
+
+# User files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VSCode/Rider
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

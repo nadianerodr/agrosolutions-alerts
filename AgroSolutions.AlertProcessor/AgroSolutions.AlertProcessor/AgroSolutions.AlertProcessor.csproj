@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AgroSolutions.AlertProcessor-5fbfa92d-fd6c-4b47-84c7-48f0461bda40</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SQS" Version="4.0.2.15" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="3.6.0" />
+	  <PackageReference Include="prometheus-net.AspNetCore" Version="8.*" />
+
+  </ItemGroup>
+</Project>
